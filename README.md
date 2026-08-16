@@ -67,3 +67,8 @@ int AI_Predict(float current_pitch, float current_roll) {
     } else return 3; // Rẽ Trái
 }
 ```
+**🚀 Hướng dẫn sử dụng / Cài đặt**
+**1. Clone repository này:**
+```
+git clone [https://github.com/Ten-Dang-Nhap-Cua-Ban/Ten-Repo-Cua-Ban.git](https://github.com/Ten-Dang-Nhap-Cua-Ban/Ten-Repo-Cua-Ban.git)
+```
