@@ -68,7 +68,18 @@ int AI_Predict(float current_pitch, float current_roll) {
 }
 ```
 **🚀 Hướng dẫn sử dụng / Cài đặt**
+
 **1. Clone repository này:**
 ```
 git clone [https://github.com/Ten-Dang-Nhap-Cua-Ban/Ten-Repo-Cua-Ban.git](https://github.com/Ten-Dang-Nhap-Cua-Ban/Ten-Repo-Cua-Ban.git)
 ```
+
+**2. Module ESP32: Mở file code ESP32 bằng Arduino IDE hoặc PlatformIO, nạp code cho cả node Gửi (Tay) và node Nhận (Xe).**
+
+**3. Module STM32:**
+
+ Mở project bằng STM32CubeIDE.
+
+ Biên dịch (Build) và nạp (Debug/Run) xuống vi điều khiển qua mạch nạp ST-Link.
+
+**4. Cấp nguồn: Bật nguồn cho xe và mạch đeo tay. Đợi 2-3 giây để hệ thống cân bằng MPU6050 và bắt đầu trải nghiệm!**
